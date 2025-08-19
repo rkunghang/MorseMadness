@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Morse Madness (Fun Crypto)</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+      color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    h2 {
+      color: #00ffcc;
+    }
+    audio {
+      margin: 15px 0;
+    }
+    .hint {
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Morse Madness (Fun Crypto)</h2>
+    <p>Below is a mysterious audio file. Listen carefully 👂</p>
+    <audio controls>
+      <source src="morse.wav" type="audio/wav">
+    </audio>
+    <p class="hint">💡 Hint: Short beep = dot <code>.</code>, long beep = dash <code>-</code>.</p>
+    <p class="hint">Try an <b>online Morse code decoder</b> to reveal the hidden flag.</p>
+  </div>
+</body>
+</html>
